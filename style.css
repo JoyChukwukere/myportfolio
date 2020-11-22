@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*  Hero image and header*************************** */
+body,
+html {
+  height: 100%;
+  font-family: roboto;
+}
+
+.navbar-brand{
+  font-family: 'Bree Serif', serif;
+  font-size: 2rem;
+
+}
+
+.nav-item{
+font-family: 'Bree Serif', serif;
+}
+
+.jum{
+font-family: 'Bree Serif', serif;
+}
+
+.jumbotron{
+  background-color: white; 
+}
+a:hover {
+  border-bottom: 2px solid red;
+}  
+
+.btn {
+  background-color: blue;
+  box-shadow:10px 5px 10px 5px rgb(231, 227, 227) ;
+  font-family: 'Bree Serif', serif;
+}
+
+  .btn:hover{
+    background-color: red;
+    color: white;
+  }
+/* Body***************************************************************** */
+h2{
+  
+}
+h1{
+  text-align: center;
+  font-size: 400;
+  margin: 50px 0 20px 0;
+  font-family: 'Bree Serif', serif;
+  transform: rotateY(20deg);
+}
+
+
+/* About me****************************************** */
+.about{
+  width: 100%;
+}
+
+/* Experience******************************** */
+
+.three, .two, .one{
+  margin: 5px 40px;
+  border: 2px solid white ;
+  background-color:white;
+  color: black;
+  box-shadow:5px 10px 10px 10px rgb(231, 227, 227) ;
+}
+.one:hover{
+  background-color: blue;
+  color: white;
+  font-size:1.1rem;
+  
+}
+
+.two:hover{
+  background-color: blue;
+  color: white;
+  font-size:1.1rem;
+  
+}
+.three:hover{
+  background-color: blue;
+  color: white;
+  font-size:1.1rem;
+  border: 2px solid blue;
+}
+
+hr{
+border-width:2px ;
+}
+
+/* Skills / Tools******* */
+.btn-projects{
+  margin: 20px 0 100px 0;
+  color: white;
+  padding: 10px 20px;
+}
+/* projects *****************************/
+
+.gallery{
+  background-color: white ;
+  box-sizing: content-box;
+}
+#photo:hover{
+  width: 1000px;
+}
+.photo {
+  border: 2px solid white;
+  background-color: white;
+  box-shadow:5px 10px 10px 10px rgb(231, 227, 227) ;
+  margin-bottom:20px ;
+}
+/* Animation****************** */
+@keyframes pop-in {
+  0%{
+    opacity: 0;
+    transform: translateY(4rem) scale(.8);
+  } 
+  100%{
+    opacity: 1;
+    transform: none;
+  }
+}.animate-pop-in{
+  animation: pop-in .6s cubic-bezier(0, .9, .3, .1) forwards;
+  opacity: 0;
+}
+
+.title{
+  animation-delay: .6s;
+}
+
+.name{
+  animation-delay: .8s;
+}
+.btn-header{
+  animation-delay: .9s;
+}
+/* *************footer*/
+.footer-text{
+  font-size: 2.5rem;
+  color: black;
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
+.icons{
+  margin:0 20px ;
+}
+.footer-nav{
+  margin:0 30px 20px 30px;
+  font-size: 1.2rem;
+}
+.footer-text1{
+  font-size: 1.2rem;
+}
+.last-div{
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 480px){
+  .footer-text{
+  font-size: 1.8rem;
+}
+.icons{
+  margin:0 10px ;
+}
+}
